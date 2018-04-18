@@ -39,7 +39,7 @@ int main (void)
     {
         cerr << "Erreur        : " << e.getLibelle () << '\n' 
              << "Code d'erreur = " << e.getCodErr ()  << '\n';
-        return r.GetCodErr();
+        return e.getCodErr();
     }    
     catch (const exception & e)
     {
